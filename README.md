@@ -4,7 +4,8 @@ A self-created Chrome extension with a movable timer and a counter that tracks w
 
 - A floating timer with milliseconds that follows you from site to site
 - Dark mode, light mode, and custom colors
-- On Wikipedia, a counter that shows how many times you clicked each link
+- On Wikipedia, a counter that shows how many times you clicked an article link
+- Saves the total number of clicks and total elapsed time from article to article
 
 ---
 
