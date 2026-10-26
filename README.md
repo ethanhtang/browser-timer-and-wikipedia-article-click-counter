@@ -74,6 +74,8 @@ Tip: click the puzzle-piece icon in Chrome's toolbar and pin **Page Timer** so i
 
 **Chrome says it has disabled developer mode extensions.** This warning can appear when Chrome starts. Keep the extension turned on (don't click **Disable**).
 
+If something is still not working please contact: reach.wikiquest@outlook.com
+
 ---
 
 ## Updating to a new version
