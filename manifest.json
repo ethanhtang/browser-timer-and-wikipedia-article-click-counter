@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Page Timer",
+  "version": "1.3.0",
+  "description": "A minimal floating timer that stays with you on every website, with dark, light, and custom colors, plus a Wikipedia link-click counter.",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Show or hide the timer"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
